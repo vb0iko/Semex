@@ -1729,6 +1729,18 @@ table td[class*="col-"], table th[class*="col-"] {
     background-color: #ebcccc
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
 @media (max-width: 767px) {
     .table-responsive {
         width: 100%;
@@ -10906,7 +10918,7 @@ section, #subheader {
 }
 
 .de-navbar-left.de_light #subheader {
-    background: url("../img/hero-residential.jpg") top fixed
+    background: url("../img/residential.jpg") top fixed
 }
 
 .de-navbar-left.de_light.page-projects #subheader {
@@ -17014,6 +17026,10 @@ header.side-header #menu-btn *:before {
     #section-testimonial .col-md-6.item {
         padding: 0
     }
+
+    .row.flex-row {
+        display: block;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -17054,7 +17070,7 @@ header.side-header #menu-btn *:before {
 }
 
 .de-navbar-left.de_light #subheader {
-    background: url("../img/hero-residential.jpg") center
+    background: url("../img/residential.jpg") center
 }
 
 @media (max-width: 991px) {
@@ -17118,13 +17134,13 @@ header.side-header #menu-btn *:before {
 }
 
 .de-navbar-left.de_light #subheader.gallery {
-    background: url("../img/hero-gallery.jpg");
+    background: url("../img/gallery.jpg");
     background-position: center;
     background-attachment: scroll
 }
 
 .de-navbar-left.de_light #subheader.contact {
-    background: url("../img/hero-contact.jpg");
+    background: url("../img/contact.jpg");
     background-position: center;
     background-attachment: scroll
 }
