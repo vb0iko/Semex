@@ -2164,7 +2164,7 @@ textarea.input-lg, select[multiple].input-lg {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    -o-user-select: none;
+    /*-o-user-select: none;*/
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
@@ -2172,7 +2172,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .btn:focus {
-    outline: thin dotted;
+    /*outline: thin dotted;*/
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
@@ -2445,16 +2445,16 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 @font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url("../fonts/glyphicons-halflings-regular.eot.html");
-    src: url("../fonts/glyphicons-halflings-regular.eot-.html#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff.html") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf.html") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg.html#glyphicons_halflingsregular") format("svg")
+    /*font-family: 'Glyphicons Halflings';*/
+    /*src: url("../fonts/glyphicons-halflings-regular.eot.html");*/
+    /*src: url("../fonts/glyphicons-halflings-regular.eot-.html#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff.html") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf.html") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg.html#glyphicons_halflingsregular") format("svg")*/
 }
 
 .glyphicon {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
+    /*font-family: 'Glyphicons Halflings';*/
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -3295,7 +3295,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     list-style: none;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -5562,7 +5562,7 @@ button.close {
     position: relative;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #999;
+    /*border: 1px solid #999;*/
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     outline: none;
@@ -6149,7 +6149,7 @@ button.close {
 }
 
 @-ms-viewport {
-    width: device-width
+    /*width: device-width*/
 }
 
 .visible-xs, tr.visible-xs, th.visible-xs, td.visible-xs {
@@ -9635,11 +9635,11 @@ Copyright (c) 2013 Daniel Eden
     height: 51px;
     border: none;
     text-indent: -999px;
-    background: url("../images/ui.totop.png.html") no-repeat left top
+    /*background: url("../images/ui.totop.png.html") no-repeat left top*/
 }
 
 #toTopHover {
-    background: url("../images/ui.totop.png.html") no-repeat left -51px;
+    /*background: url("../images/ui.totop.png.html") no-repeat left -51px;*/
     width: 51px;
     height: 51px;
     display: block;
@@ -9755,7 +9755,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .grabbing {
-    cursor: url("grabbing.png.html") 8 8, move
+    /*cursor: url("grabbing.png.html") 8 8, move*/
 }
 
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
@@ -9831,7 +9831,7 @@ Copyright (c) 2013 Daniel Eden
 
 .owl-item.loading {
     min-height: 150px;
-    background: url("AjaxLoader.gif.html") no-repeat center center
+    /*background: url("AjaxLoader.gif.html") no-repeat center center*/
 }
 
 .owl-origin {
@@ -10655,40 +10655,40 @@ section, #subheader {
     background-size: 100% !important
 }
 
-#subheader {
-    background: url("../images/background/bg-subheader.jpg") top fixed
-}
+/*#subheader {*/
+/*background: url("../images/background/bg-subheader.jpg") top fixed*/
+/*}*/
 
-.page-projects #subheader {
-    background-image: url("../images/background/subheader-1.jpg")
-}
+/*.page-projects #subheader {*/
+/*background-image: url("../images/background/subheader-1.jpg")*/
+/*}*/
 
-.page-projects-alt #subheader {
-    background-image: url("../images/background/subheader-1b.jpg")
-}
+/*.page-projects-alt #subheader {*/
+/*background-image: url("../images/background/subheader-1b.jpg")*/
+/*}*/
 
-.page-services #subheader {
-    background-image: url("../images/background/subheader-2.jpg")
-}
+/*.page-services #subheader {*/
+/*background-image: url("../images/background/subheader-2.jpg")*/
+/*}*/
 
-.page-about #subheader {
-    background-image: url("../images/background/subheader-3.jpg")
-}
+/*.page-about #subheader {*/
+/*background-image: url("../images/background/subheader-3.jpg")*/
+/*}*/
 
-.page-blog #subheader {
-    background-image: url("../images/background/subheader-4.jpg")
-}
+/*.page-blog #subheader {*/
+/*background-image: url("../images/background/subheader-4.jpg")*/
+/*}*/
 
 .page-shop #subheader {
-    background-image: url("../images/background/subheader-5.jpg")
+    /*background-image: url("../images/background/subheader-5.jpg")*/
 }
 
 .page-contact #subheader {
-    background-image: url("../images/background/subheader-6.jpg")
+    /*background-image: url("../images/background/subheader-6.jpg")*/
 }
 
 #info-address {
-    background: url("../images/background/bg-3.jpg") top fixed
+    /*background: url("../images/background/bg-3.jpg") top fixed*/
 }
 
 #view-all-projects, #call-to-action {
@@ -10714,15 +10714,15 @@ section, #subheader {
 }
 
 #section-about-us-4 .image-container {
-    background: url("../images/background/bg-side-3.jpg")
+    /*background: url("../images/background/bg-side-3.jpg")*/
 }
 
 #section-welcome-5 {
-    background: url("../images/background/bg-14.jpg.html") top fixed
+    /*background: url("../images/background/bg-14.jpg.html") top fixed*/
 }
 
 #section-blog {
-    background: url("../images/background/bg-5.jpg") top fixed
+    /*background: url("../images/background/bg-5.jpg") top fixed*/
 }
 
 #section-coming-soon {
@@ -10738,11 +10738,11 @@ section, #subheader {
 }
 
 #section-download {
-    background: url("../images/background/bg-9.jpg") top fixed
+    /*background: url("../images/background/bg-9.jpg") top fixed*/
 }
 
 #bg-coming-soon-page {
-    background: url("../images/background/bg-6.jpg") top fixed;
+    /*background: url("../images/background/bg-6.jpg") top fixed;*/
     position: fixed;
     min-height: 100%;
     width: 100%
@@ -10757,17 +10757,17 @@ section, #subheader {
     background: none
 }
 
-#section-welcome {
-    background: url("../images/background/bg-4.jpg") top fixed
-}
+/*#section-welcome {*/
+/*background: url("../images/background/bg-4.jpg") top fixed*/
+/*}*/
 
-#section-welcome-2 {
-    background: url("../images/background/bg-6.jpg") top fixed
-}
+/*#section-welcome-2 {*/
+/*background: url("../images/background/bg-6.jpg") top fixed*/
+/*}*/
 
-#section-welcome-3 {
-    background: url("../images/background/bg-7.jpg") top fixed
-}
+/*#section-welcome-3 {*/
+/*background: url("../images/background/bg-7.jpg") top fixed*/
+/*}*/
 
 #section-welcome-4 {
     background: url("../img/hero-home.jpg") bottom center!important;
@@ -10775,27 +10775,27 @@ section, #subheader {
 }
 
 #section-welcome-6 {
-    background: url("../images/background/bg-15.jpg") top fixed
+    /*background: url("../images/background/bg-15.jpg") top fixed*/
 }
 
 #section-welcome-7 {
-    background: url("../images/background/bg-20.jpg") fixed center
+    /*background: url("../images/background/bg-20.jpg") fixed center*/
 }
 
 #section-welcome-8 {
-    background: url("../images/background/bg-20.jpg") fixed center
+    /*background: url("../images/background/bg-20.jpg") fixed center*/
 }
 
 #section-welcome-9 {
-    background: url("../images/background/bg-21.jpg.html") top fixed
+    /*background: url("../images/background/bg-21.jpg.html") top fixed*/
 }
 
 #section-why-choose-us {
-    background: url("../images/background/bg-8.jpg") top fixed
+    /*background: url("../images/background/bg-8.jpg") top fixed*/
 }
 
 #section-why-choose-us-3 {
-    background: url("../images/background/bg-16.jpg") top fixed
+    /*background: url("../images/background/bg-16.jpg") top fixed*/
 }
 
 #section-portfolio {
@@ -10809,7 +10809,7 @@ section, #subheader {
 }
 
 #section-skill-bar {
-    background: url("../images/background/bg-8.jpg") top fixed
+    /*background: url("../images/background/bg-8.jpg") top fixed*/
 }
 
 #section-testimonial {
@@ -10817,11 +10817,11 @@ section, #subheader {
 }
 
 #section-testimonial-2 {
-    background: url("../images/background/bg-17.jpg") top fixed
+    /*background: url("../images/background/bg-17.jpg") top fixed*/
 }
 
 #section-steps {
-    background: url("../images/background/bg-2.jpg") top fixed
+    /*background: url("../images/background/bg-2.jpg") top fixed*/
 }
 
 #section-steps-2 {
@@ -10829,7 +10829,7 @@ section, #subheader {
 }
 
 #section-steps-3 {
-    background: url("../images/background/bg-12.jpg") top fixed
+    /*background: url("../images/background/bg-12.jpg") top fixed*/
 }
 
 #section-team {
@@ -10850,51 +10850,51 @@ section, #subheader {
 }
 
 #section-fun-facts .image-container {
-    background: url("../images/background/bg-side-4.jpg")
+    /*background: url("../images/background/bg-side-4.jpg")*/
 }
 
 #section-fun-facts-2 {
-    background: url("../images/background/bg-13.jpg") center
+    /*background: url("../images/background/bg-13.jpg") center*/
 }
 
 #section-fun-facts-3 {
-    background: url("../images/background/bg-18.jpg") top
+    /*background: url("../images/background/bg-18.jpg") top*/
 }
 
 #section-custom-1 {
-    background: url("../images/background/bg-17.jpg") top fixed
+    /*background: url("../images/background/bg-17.jpg") top fixed*/
 }
 
 #section-custom-2 {
-    background: url("../images/background/bg-16.jpg") top fixed
+    /*background: url("../images/background/bg-16.jpg") top fixed*/
 }
 
 #section-cta-1 {
-    background: url("../images/background/bg-22.jpg.html") top fixed
+    /*background: url("../images/background/bg-22.jpg.html") top fixed*/
 }
 
 #section-welcome-10 {
-    background: url("../images/background/bg-23.jpg") top fixed
+    /*background: url("../images/background/bg-23.jpg") top fixed*/
 }
 
 #section-profile-experiences {
-    background: url("../images/background/bg-24.jpg") top fixed
+    /*background: url("../images/background/bg-24.jpg") top fixed*/
 }
 
 #section-service-1.side-bg .background-image {
-    background: url("../images/background/bg-service-1.jpg")
+    /*background: url("../images/background/bg-service-1.jpg")*/
 }
 
 #section-service-2.side-bg .background-image {
-    background: url("../images/background/bg-service-2.jpg")
+    /*background: url("../images/background/bg-service-2.jpg")*/
 }
 
 #section-service-3.side-bg .background-image {
-    background: url("../images/background/bg-service-3.jpg")
+    /*background: url("../images/background/bg-service-3.jpg")*/
 }
 
 #section-service-4.side-bg .background-image {
-    background: url("../images/background/bg-service-4.jpg")
+    /*background: url("../images/background/bg-service-4.jpg")*/
 }
 
 #section-service-2, #section-service-4 {
@@ -10902,19 +10902,19 @@ section, #subheader {
 }
 
 #section-side-1.side-bg .background-image {
-    background: url("../images/background/bg-side-5.jpg")
+    /*background: url("../images/background/bg-side-5.jpg")*/
 }
 
 #section-side-2.side-bg .background-image {
-    background: url("../images/background/bg-side-6.jpg")
+    /*background: url("../images/background/bg-side-6.jpg")*/
 }
 
 #section-side-3.side-bg .background-image {
-    background: url("../images/background/bg-side-7.jpg")
+    /*background: url("../images/background//bg-side-7.jpg")*/
 }
 
 #section-side-4.side-bg .background-image {
-    background: url("../images/background/bg-side-8.jpg")
+    /*background: url("../images/background/bg-side-8.jpg")*/
 }
 
 .de-navbar-left.de_light #subheader {
@@ -10922,27 +10922,27 @@ section, #subheader {
 }
 
 .de-navbar-left.de_light.page-projects #subheader {
-    background-image: url("../images/background/subheader-1-sn.jpg")
+    /*background-image: url("../images/background/subheader-1-sn.jpg")*/
 }
 
 .de-navbar-left.de_light.page-services #subheader {
-    background-image: url("../images/background/subheader-2-sn.jpg")
+    /*background-image: url("../images/background/subheader-2-sn.jpg")*/
 }
 
 .de-navbar-left.de_light.page-about #subheader {
-    background-image: url("../images/background/subheader-3-sn.jpg")
+    /*background-image: url("../images/background/subheader-3-sn.jpg")*/
 }
 
 .de-navbar-left.de_light.page-blog #subheader {
-    background-image: url("../images/background/subheader-4-sn.jpg")
+    /*background-image: url("../images/background/subheader-4-sn.jpg")*/
 }
 
-.de-navbar-left.de_light.page-shop #subheader {
-    background-image: url("../images/background/subheader-5-sn.jpg")
-}
+/*.de-navbar-left.de_light.page-shop #subheader {*/
+/*background-image: url("../images/background/subheader-5-sn.jpg")*/
+/*}*/
 
 .de-navbar-left.de_light.page-contact #subheader {
-    background-image: url("../images/background/subheader-6-sn.jpg")
+    /*background-image: url("../images/background/subheader-6-sn.jpg")*/
 }
 
 .bg-fit-height {
@@ -10953,7 +10953,7 @@ section, #subheader {
     background-attachment: scroll !important
 }
 
-@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     section {
         -webkit-background-size: auto 100% !important;
         -moz-background-size: auto 100% !important;
@@ -12911,8 +12911,8 @@ span.teaser {
     color: #eceff3;
     font-size: 40px;
     padding: 40px;
-    width: 120x;
-    height: 120x;
+    width: 120px;
+    height: 120px;
     text-align: center;
     border: none;
     border-radius: 10px;
@@ -14106,11 +14106,11 @@ video, object {
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: url("../images/dot-70.png")
+    /*background: url("../images/dot-70.png")*/
 }
 
 .de-video-overlay.dotted {
-    background: url("../images/dotted.png")
+    /*background: url("../images/dotted.png")*/
 }
 
 .video-fixed {
@@ -14330,7 +14330,7 @@ blockquote span {
 
 .toggle-list li .acc_active:hover {
     color: #777;
-    background: url("../images/icon-slide-plus.png.html") 20px center no-repeat;
+    /*background: url("../images/icon-slide-plus.png.html") 20px center no-repeat;*/
     padding-left: 80px;
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -14341,7 +14341,7 @@ blockquote span {
 
 .toggle-list li .acc_noactive:hover {
     color: #777;
-    background: url("../images/icon-slide-min.png.html") 20px center no-repeat;
+    /*background: url("../images/icon-slide-min.png.html") 20px center no-repeat;*/
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -14356,7 +14356,7 @@ blockquote span {
 }
 
 .acc_active {
-    background: url("../images/icon-slide-plus.png.html") 20px center no-repeat;
+    /*background: url("../images/icon-slide-plus.png.html") 20px center no-repeat;*/
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -14366,7 +14366,7 @@ blockquote span {
 }
 
 .acc_noactive {
-    background: url("../images/icon-slide-min.png.html") 20px center no-repeat
+    /*background: url("../images/icon-slide-min.png.html") 20px center no-repeat*/
 }
 
 .img-left {
@@ -14606,7 +14606,7 @@ a, a:hover, .test-column, .test-column:hover {
     width: 100px;
     height: 100px;
     display: block;
-    background: url("../images/close.png.html") center no-repeat;
+    /*background: url("../images/close.png.html") center no-repeat;*/
     margin: 0 auto;
     margin-bottom: 80px;
     cursor: pointer;
@@ -14720,13 +14720,13 @@ a.img-icon-url, a.img-icon-zoom {
     display: inline-block;
     width: 36px;
     height: 36px;
-    background: url("../images/icon-url.png.html") center no-repeat;
+    /*background: url("../images/icon-url.png.html") center no-repeat;*/
     margin: 0 auto;
     margin: 0 2px 0 2px
 }
 
 a.img-icon-zoom {
-    background: url("../images/icon-zoom.png.html") center no-repeat
+    /*background: url("../images/icon-zoom.png.html") center no-repeat*/
 }
 
 .pf_full_width .item {
@@ -14832,7 +14832,7 @@ a.img-icon-zoom {
 
 .widget_recent_post li {
     padding-left: 20px;
-    background: url("../images/list-arrow.png.html") left 2px no-repeat;
+    /*background: url("../images/list-arrow.png.html") left 2px no-repeat;*/
     border-bottom: solid 1px #222;
     padding-bottom: 7px;
     margin-bottom: 5px
@@ -14844,7 +14844,7 @@ a.img-icon-zoom {
 
 .widget .comments li {
     padding-left: 20px;
-    background: url("../images/list-arrow.png.html") left 2px no-repeat;
+    /*background: url("../images/list-arrow.png.html") left 2px no-repeat;*/
     border-bottom: solid 1px #eee;
     padding-bottom: 7px;
     margin-bottom: 5px
@@ -15224,14 +15224,14 @@ p {
     width: 100%;
     height: 100%;
     z-index: 99999;
-    background: url("../images/page-loader.gif.html") 50% 50% no-repeat #f9f9f9
+    /*background: url("../images/page-loader.gif.html") 50% 50% no-repeat #f9f9f9*/
 }
 
 .page-overlay {
     display: none;
     width: 120px;
     height: 120px;
-    background: url("../images/page-loader.gif.html") center no-repeat #fff;
+    /*background: url("../images/page-loader.gif.html") center no-repeat #fff;*/
     border-radius: 10px;
     position: fixed;
     top: 0;
@@ -16011,7 +16011,7 @@ p {
         position: absolute;
         top: 8px;
         right: 30px;
-        height: 0;
+        /*height: 0;*/
         z-index: 2000;
         height: 35px
     }
@@ -16309,7 +16309,7 @@ p {
     header.header-mobile #mainmenu > li > span {
         width: 36px;
         height: 36px;
-        background: url("../images/ui/arrow-down.png") center no-repeat;
+        /*background: url("../images/ui/arrow-down.png") center no-repeat;*/
         position: absolute;
         right: 0;
         margin-top: 10px;
@@ -16318,13 +16318,13 @@ p {
     }
 
     header.header-mobile #mainmenu li span.active {
-        background: url("../images/ui/arrow-up.png") center no-repeat
+        /*background: url("../images/ui/arrow-up.png") center no-repeat*/
     }
 
     header.header-mobile #mainmenu li > ul > li > span {
         width: 36px;
         height: 36px;
-        background: url("../images/ui/arrow-down.png") center no-repeat;
+        /*background: url("../images/ui/arrow-down.png") center no-repeat;*/
         position: absolute;
         right: 0;
         margin-top: -45px;
@@ -16333,7 +16333,7 @@ p {
     }
 
     header.header-mobile #mainmenu > li > ul > li > span.active {
-        background: url("../images/ui/arrow-up.png") center no-repeat
+        /*background: url("../images/ui/arrow-up.png") center no-repeat*/
     }
 
     header.header-mobile #mainmenu li ul li a {
@@ -16767,7 +16767,7 @@ header.side-header #menu-btn {
 }
 
 header.side-header #menu-btn *:before {
-    font-style: 28px
+    /*font-size: 28px*/
 }
 
 @media (max-width: 992px) {
